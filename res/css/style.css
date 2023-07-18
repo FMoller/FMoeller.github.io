@@ -7,6 +7,19 @@
     box-sizing: border-box;
 }
 
+.author-box img {
+	border-radius: 50%;
+	float: top;
+    height: 200px;
+    width: 200px; 
+}
+.author-text {
+	display: flex;
+    font-size: 22px;
+    float: top;
+	justify-content: center;
+}
+
 .clearfix:after {
     content: "";
     display: table;
@@ -20,10 +33,22 @@
 }
 
 .left-menu {
-    width: 25%;
+	display: flex;
     float: left;
+	justify-content: center;
     padding-left: 30px;
     position: relative;
+	border: 3px solid red;
+	width: 25%;
+}
+.left-menu-elements{
+	list-style-type: none;
+}
+.left-menu-content {
+	width: 100%;
+	display: flex;
+	float: bottom;
+	justify-content: center;
 	border: 3px solid red;
 }
 
