@@ -7,6 +7,12 @@
     box-sizing: border-box;
 }
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .author-box img {
 	border-radius: 50%;
 	float: top;
@@ -53,6 +59,21 @@
 }
 
 .content {
+	display: block;
     width: 75%;
     float: right;
-	border: 3px solid red;
+	border: 3px solid purple;
+}
+
+.content-nav {
+	display: block;
+	height: 20vh;
+	border: 3px solid green;
+	float: top;
+}
+.content-content{
+	display: block;
+	height: 80vh;
+	border: 3px solid green;
+	float: bottom;
+}
