@@ -13,6 +13,14 @@
     clear: both;
 }
 
+/*--------------------------------------------*/
+/* REUSABLE */
+/*--------------------------------------------*/
+.row{
+	max-width: 100%;
+	margin: 0 auto;
+}
+
 .author-box img {
 	border-radius: 50%;
 	float: top;
@@ -22,7 +30,7 @@
 .author-text {
 	display: flex;
     font-size: 22px;
-    float: top;
+    float: bottom;
 	justify-content: center;
 }
 
